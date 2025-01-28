@@ -102,7 +102,8 @@ randomAnimal = animals[getRandom(animals)];
 console.log(randomAnimal);
 friends.push(randomAnimal.name);
 console.log(friends);
-
+animals[getRandom(animals)].friends = friends;
+console.log(animals);
 
 
 /**
